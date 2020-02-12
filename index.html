@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
 
     <title>Barber Shop</title>
@@ -101,7 +102,6 @@
           <a href="#"><i class="fab fa-instagram"></i></a>
         </span>
       </div>
-      <div class="fade"></div>
     </section>
     <section id="about">
         <hr class="scroll-line">
@@ -116,7 +116,7 @@
       </div>
     </section>
     <section id="grid">
-      <div class="grid-item" style="width: 19%;">
+      <div class="grid-item wow fadeInUp" data-wow-offset="200" style="width: 19%;">
         <div class="grid-item-img">
           <a data-fancybox="gallery" href="img/grid-1.jpg">
             <img class="img-fluid" src="img/grid-1.jpg" alt="">
@@ -124,7 +124,7 @@
           </a>
         </div>
       </div>
-      <div class="grid-item" style="width: 26%;">
+      <div class="grid-item wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="200" style="width: 26%;">
         <div class="grid-item-img">
           <a data-fancybox="gallery" href="img/grid-2.png">
             <img class="img-fluid" src="img/grid-2.png" alt="">
@@ -138,7 +138,7 @@
           </a>
         </div>
       </div>
-      <div class="grid-item" style="width: 20%;">
+      <div class="grid-item wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="200" style="width: 20%;">
         <div class="grid-item-img">
           <a data-fancybox="gallery" href="img/grid-4.png">
             <img class="img-fluid" src="img/grid-4.png" alt="">
@@ -146,7 +146,7 @@
           </a>
         </div>
       </div>
-      <div class="grid-item" style="width: 16%;">
+      <div class="grid-item wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="200" style="width: 16%;">
         <div class="grid-item-img">
           <a data-fancybox="gallery" href="img/grid-5.png">
             <img class="img-fluid" src="img/grid-5.png" alt="">
@@ -160,7 +160,7 @@
           </a>
         </div>
       </div>
-      <div class="grid-item" style="width: 19%;">
+      <div class="grid-item wow fadeInUp" data-wow-delay="0.8s" data-wow-offset="200" style="width: 19%;">
         <div class="grid-item-img">
           <a data-fancybox="gallery" href="img/grid-7.png">
             <img class="img-fluid" src="img/grid-7.png" alt="">
@@ -180,7 +180,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 service-item">
+          <div class="col-md-6 service-item wow fadeInLeft" data-wow-offset="200">
             <div class="services-img">
               <img src="img/services-item-1.png" alt="shaving">
             </div>
@@ -190,7 +190,7 @@
               <span>&#36; 35</span>
             </div>
           </div>
-          <div class="col-md-6 service-item">
+          <div class="col-md-6 service-item wow fadeInRight" data-wow-offset="200">
             <div class="services-img">
               <img src="img/services-item-2.png" alt="haircut">
             </div>
@@ -200,7 +200,7 @@
               <span>&#36; 40</span>
             </div>
           </div>
-          <div class="col-md-6 service-item">
+          <div class="col-md-6 service-item wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="200">
             <div class="services-img">
               <img src="img/services-item-3.png" alt="Trimming mustache">
             </div>
@@ -210,7 +210,7 @@
               <span>&#36; 50</span>
             </div>
           </div>
-          <div class="col-md-6 service-item">
+          <div class="col-md-6 service-item wow fadeInRight" data-wow-delay="0.2s" data-wow-offset="200">
             <div class="services-img">
               <img src="img/services-item-4.png" alt="Trimming beard">
             </div>
@@ -392,7 +392,7 @@
         </div>
         <div class="row">
             <p class="team-desc">Our team is first and foremost friends united by one common idea - <strong>barbering.</strong> The atmosphere is created not by the surrounding interior items, but by the people who are in it! Come and try our level of service and attitude to yourself, because your head is expensive!</p>
-          <div class="col-sm-4 team-item">
+          <div class="col-sm-4 team-item wow fadeInLeft" data-wow-offset="200">
             <img src="img/etham.png" alt="">
             <p class="name">Ethan Mosley</p>
             <p class="spec">Heir Cut Specialist</p>
@@ -402,7 +402,7 @@
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
-          <div class="col-sm-4 team-item">
+          <div class="col-sm-4 team-item wow fadeInUp" data-wow-offset="200">
             <img src="img/gavin.png" alt="">
             <p class="name">Gavin Lamb</p>
             <p class="spec">Heir Cut Specialist</p>
@@ -412,7 +412,7 @@
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
-          <div class="col-sm-4 team-item">
+          <div class="col-sm-4 team-item wow fadeInRight" data-wow-offset="200">
             <img src="img/reynard.png" alt="">
             <p class="name">Reynard Owens</p>
             <p class="spec">Heir Cut Specialist</p>
@@ -430,19 +430,19 @@
         <h3>#oswald</h3>
       </div>
       <div class="row">
-        <div class="col-sm-2 insta-photo">
+        <div class="col-sm-2 insta-photo hidden">
           <a href="#">
             <figcaption><i class="fab fa-instagram"></i></figcaption>
             <img src="img/insta-1.jpg" alt="">
           </a>
         </div>
-        <div class="col-sm-2 insta-photo">
+        <div class="col-sm-2 insta-photo hidden">
           <a href="#">
             <figcaption><i class="fab fa-instagram"></i></figcaption>
             <img src="img/insta-2.png" alt="">
           </a>
         </div>
-        <div class="col-sm-2 insta-photo">
+        <div class="col-sm-2 insta-photo hidden">
           <a href="#">
             <figcaption><i class="fab fa-instagram"></i></figcaption>
             <img src="img/insta-3.png" alt="">
@@ -454,13 +454,13 @@
             <img src="img/insta-4.png" alt="">
           </a>
         </div>
-        <div class="col-sm-2 insta-photo">
+        <div class="col-sm-2 insta-photo hidden">
           <a href="#">
             <figcaption><i class="fab fa-instagram"></i></figcaption>
             <img src="img/insta-5.png" alt="">
           </a>
         </div>
-        <div class="col-sm-2 insta-photo">
+        <div class="col-sm-2 insta-photo hidden">
           <a href="#">
             <figcaption><i class="fab fa-instagram"></i></figcaption>
             <img src="img/insta-6.png" alt="">
@@ -548,29 +548,31 @@
 
     <!-- Modal -->
     <div class="modal fade" id="appointmentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <h2>Send your contact details</h2>
+            <p>We will contact you within 5 minutes</p>
+            <form action="send.php" method="POST">
+              <div class="form-group">
+                <input type="name" name="name" class="form-control" id="name" required aria-describedby="emailHelp" placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <input type="phone" name="phone" class="form-control" id="phone" required placeholder="Your phone number">
+              </div>
+              <button type="submit" name="btn_submit" class="btn btn-callback">Call me back</button>
+            </form>
           </div>
         </div>
       </div>
-    </div>
-
-    
+    </div>  
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="https://kit.fontawesome.com/bfb0265f6e.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
